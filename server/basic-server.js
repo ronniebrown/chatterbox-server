@@ -26,12 +26,7 @@ var server = http.createServer(handleRequest.requestHandler);
 console.log("Listening on http://" + ip + ":" + port);
 server.listen(port, ip);
 
-// To start this server, run:
-//
-//   node basic-server.js
-//
-// on the command line.
-//
+
 // To connect to the server, load http://127.0.0.1:3000 in your web
 // browser.
 //
